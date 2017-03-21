@@ -1,3 +1,11 @@
-node_modules/
 data/
+design/
+node_modules/
+.git/
+.eslintrc.json
+.gitignore
+.npmignore
+.travis.yml
+Dockerfile
+README.md
 .*

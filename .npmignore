@@ -1,4 +1,13 @@
 .DS_Store
 data/
+design/
 public/images/
 public/uploads/
+node_modules/
+.git/
+.dockerignore
+.eslintrc.json
+.gitignore
+.travis.yml
+Dockerfile
+README.md
