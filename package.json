@@ -1,8 +1,36 @@
 {
   "name": "openkb",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "openKB is an Open Source Nodejs Markdown based knowledge base/FAQ/Wiki app with powerful lunr search",
   "private": false,
+  "keywords": [
+    "knowledge base",
+    "markdown",
+    "express",
+    "nedb",
+    "documentation",
+    "platform",
+    "nodejs",
+    "kb",
+    "documentation",
+    "faq",
+    "wiki",
+    "openkb",
+    "mongodb",
+    "mermaid",
+    "mathjax"
+  ],
+  "author": "Mark Moffat",
+  "license": "MIT",
+  "homepage": "http://openkb.mrvautin.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrvautin/openKB.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrvautin/openKB/issues"
+  },
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dbUpgrade": "node data/mongodbUpgrade.js"
@@ -44,33 +72,14 @@
     "simplemde": "^1.11.2",
     "sitemap": "^1.8.1",
     "speakingurl": "^10.0.0",
-    "walk": "^2.3.9"
+    "walk": "^2.3.9",
+    "passport": "^0.3.2",
+    "passport-oauth": "^1.0.0",
+    "passport-ldapauth": "^1.0.0",
+    "passport-facebook": "^2.1.1",
+    "passport-twitter": "^1.0.4",
+    "passport-google-oauth": "^1.0.0",
+    "passport-windowslive": "^1.0.2"
   },
-  "main": "app.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrvautin/openKB.git"
-  },
-  "keywords": [
-    "knowledge base",
-    "markdown",
-    "express",
-    "nedb",
-    "documentation",
-    "platform",
-    "nodejs",
-    "kb",
-    "documentation",
-    "faq",
-    "wiki",
-    "openkb",
-    "mongodb"
-  ],
-  "author": "Mark Moffat",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mrvautin/openKB/issues"
-  },
-  "homepage": "http://openkb.mrvautin.com"
+  "devDependencies": {}
 }
