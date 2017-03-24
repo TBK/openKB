@@ -146,6 +146,10 @@
 	"Article successfully deleted": "Article successfully deleted",
 	"Keywords": "Keywords",
 	"Import": "Import",
+	"Import zip": "Import zip",
+	"Select zip": "Select zip",
+	"Change": "Change",
+	"You are able to bulk import articles by uploading a Zip file containing files with Markdown content. When new articles are created, the name of the file will become the title\/permalink. All imported articles will be set to a draft status.": "You are able to bulk import articles by uploading a Zip file containing files with Markdown content. When new articles are created, the name of the file will become the title\/permalink. All imported articles will be set to a draft status.",
 	"New article successfully created": "New article successfully created",
 	"Successfully saved": "Successfully saved",
 	"Permalink": "Permalink",
@@ -163,5 +167,6 @@
 	"Whether to enable ": "Whether to enable ",
 	"Allow MathJax": "Allow MathJax",
 	"MathJax input mode": "MathJax input mode",
-	"Configure the mode MathJax operates in - ": "Configure the mode MathJax operates in - "
+	"Configure the mode MathJax operates in - ": "Configure the mode MathJax operates in - ",
+	"Welcome to ": "Welcome to "
 }

@@ -1,25 +1,20 @@
-
-.val-error{
-	color: #d9534f;
+.val-error {
+    color: #d9534f;
 }
 
-@media (max-width: 979px) { 
-	body { 
-		padding-bottom: 20px; 
-	} 
-	
-	.view_count, #preview-wrapper {
-		display: none;
-	}
-    
+@media (max-width: 979px) {
+    body {
+        padding-bottom: 20px;
+    }
+    .view_count, #preview-wrapper {
+        display: none;
+    }
     #editor-wrapper {
         padding-top: 20px;
     }
-
-    .permalink_buttons{
+    .permalink_buttons {
         padding-top: 15px;
     }
-
     .input-lg {
         height: 50px;
         padding-left: 15px;
@@ -27,7 +22,6 @@
         line-height: 1.2;
         border-radius: 3px;
     }
-
     .btn-lg, .btn-group-lg>.btn {
         height: 50px;
         padding-left: 0px 5px;
@@ -41,45 +35,45 @@ html, body {
     font-size: 16px;
 }
 
-html{
+html {
     position: relative;
     min-height: 100%;
 }
 
-.hljs{
+.hljs {
     background: transparent;
 }
 
-#header {        
+#header {
     height: 50px;
 }
 
-.brand-image{
-    padding: 12px 10px 0 30px;    
+.brand-image {
+    padding: 12px 10px 0 30px;
 }
 
-.navbar-brand{
+.navbar-brand {
     padding-left: 30px;
 }
 
-.view_count{
+.view_count {
     font-size: 14px;
 }
 
-.list-group-heading{
+.list-group-heading {
     color: #2c3e50;
     background-color: #ecf0f1;
     height: 45px;
 }
 
-.list-group-sidemenu li{
+.list-group-sidemenu li {
     background-color: transparent;
     border: none;
     padding-left: 0px;
     padding-right: 0px;
 }
 
-#searchResult{
+#searchResult {
     right: -2px;
     left: 0px;
     min-height: 200px;
@@ -88,7 +82,7 @@ html{
     z-index: 1000;
 }
 
-.searchResultList li{
+.searchResultList li {
     background-color: #ecf0f1;
     border: 1px solid #dce4ec;
 }
@@ -98,27 +92,27 @@ html{
     overflow: auto;
 }
 
-.btnSettingsUpdate{
+.btnSettingsUpdate {
     padding-top: 25px;
 }
 
-#editor-wrapper-suggest > .CodeMirror{
+#editor-wrapper-suggest>.CodeMirror {
     height: calc(100vh - 110px - 175px - 110px) !important;
     overflow: auto;
 }
 
-.editor-toolbar, .CodeMirror{
+.editor-toolbar, .CodeMirror {
     border: 2px solid #dce4ec;
     border-radius: 4px;
 }
 
-.editor-toolbar{
+.editor-toolbar {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border-bottom: 0px;
 }
 
-.CodeMirror{
+.CodeMirror {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
@@ -128,86 +122,86 @@ html{
     overflow: auto;
 }
 
-.suggest-preview{
+.suggest-preview {
     height: calc(100vh - 110px - 235px) !important;
 }
 
-.show_footer{
+.show_footer {
     margin-bottom: 60px;
 }
 
-.tokenfield .token .close{
+.tokenfield .token .close {
     color: black;
 }
 
-.search_bar{
+.search_bar {
     margin-top: 10px;
 }
 
-.dropup-button{
+.dropup-button {
     height: 34px;
     padding: 0px;
     color: white !important;
 }
 
-.dropdown-menu>li>a{
+.dropdown-menu>li>a {
     padding-top: 5px !important;
 }
 
-.pad-bottom{
+.pad-bottom {
     padding-bottom: 25px;
 }
 
-.keywords{
+.keywords {
     padding-bottom: 30px;
     padding-top: 20px;
     font-size: 19px;
 }
 
-.file-form{
+.file-form {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.editor_btn_action{
-    border-top-left-radius: 0px !important; 
+.editor_btn_action {
+    border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 }
 
-.dropup-list{
+.dropup-list {
     padding-bottom: 5px;
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
 }
 
-#notify_message{
+#notify_message {
     position: fixed;
     display: none;
     z-index: 9999;
     padding-top: 10px;
     height: 50px;
-    bottom: 0px; 
-    width: 100%; 
+    bottom: 0px;
+    width: 100%;
     text-align: center;
     font-size: 22px;
     color: white;
 }
 
-.notify_message-success{
+.notify_message-success {
     background-color: #18bc9c;
 }
 
-.notify_message-danger{
+.notify_message-danger {
     background-color: #e74c3c;
 }
 
-.popover-title{
+.popover-title {
     background-color: #e74c3c;
     color: white;
 }
 
-.bg-danger, .bg-warning, .bg-primary, .bg-success, .bg-info{
+.bg-danger, .bg-warning, .bg-primary, .bg-success, .bg-info {
     color: #ffffff;
 }
 
@@ -226,6 +220,7 @@ html{
     position: relative;
     overflow: hidden;
 }
+
 .btn-file input[type=file] {
     position: absolute;
     top: 0;

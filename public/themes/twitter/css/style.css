@@ -2,11 +2,11 @@ html, body {
     font-size: 16px;
 }
 
-body{
+body {
     font-family: "Gotham Narrow SSm", "Helvetica Neue", Helvetica, sans-serif;
 }
 
-html{
+html {
     position: relative;
     min-height: 100%;
 }
@@ -22,7 +22,7 @@ h2, .h2 {
     font-size: 38px;
 }
 
-.hljs{
+.hljs {
     background: transparent;
 }
 
@@ -31,7 +31,7 @@ h2, .h2 {
     padding-left: 15px;
 }
 
-.searchBar{        
+.searchBar {
     height: 300px;
     background: transparent url(/themes/twitter/images/headerBg.jpg) no-repeat top left;
     background-size: cover;
@@ -39,7 +39,7 @@ h2, .h2 {
     margin-bottom: 10px;
 }
 
-.searchBar h1{
+.searchBar h1 {
     font-size: 40px;
     font-weight: 300;
     margin: 75px 0 10px;
@@ -47,7 +47,7 @@ h2, .h2 {
     line-height: 1;
 }
 
-.searchBar a{
+.searchBar a {
     color: #fff;
 }
 
@@ -57,37 +57,37 @@ p.subheading {
     line-height: 1.2;
 }
 
-#frm_search{
+#frm_search {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
 
-#btn_search{
+#btn_search {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
 
-.featuredPanel{
-    height: 150px; 
-    text-align: center;  
+.featuredPanel {
+    height: 150px;
+    text-align: center;
 }
 
 .panel-default {
     border: 1px solid #e3eaee;
 }
 
-.featuredArticles{
+.featuredArticles {
     margin-top: 20px;
 }
 
-.featuredArticlesFooter{
+.featuredArticlesFooter {
     background-color: #0c85d0;
     border-color: #0b7fc6;
     text-align: center;
     color: #fff;
 }
 
-.featuredArticlesFooter a{
+.featuredArticlesFooter a {
     color: #fff;
 }
 
@@ -111,16 +111,16 @@ p.subheading {
     background-color: transparent;
 }
 
-.view_count{
+.view_count {
     font-size: 14px;
 }
 
-.searchResultList li a{
+.searchResultList li a {
     text-align: left;
     color: #337ab7;
 }
 
-#searchResult{
+#searchResult {
     right: -2px;
     left: 0px;
     min-height: 200px;
@@ -135,11 +135,11 @@ p.subheading {
     border-color: #e3eaee;
 }
 
-.show_footer{
+.show_footer {
     margin-bottom: 80px;
 }
 
-.metaData h5{
+.metaData h5 {
     padding-bottom: 0px;
     line-height: 1;
 }

@@ -2,11 +2,11 @@ html, body {
     font-size: 16px;
 }
 
-body{
+body {
     font-family: "Gotham Narrow SSm", "Helvetica Neue", Helvetica, sans-serif;
 }
 
-html{
+html {
     position: relative;
     min-height: 100%;
 }
@@ -22,7 +22,7 @@ h2, .h2 {
     font-size: 38px;
 }
 
-.hljs{
+.hljs {
     background: transparent;
 }
 
@@ -31,7 +31,7 @@ h2, .h2 {
     padding-left: 15px;
 }
 
-.searchBar h1{
+.searchBar h1 {
     font-size: 40px;
     font-weight: 300;
     margin: 50px 0px 50px 0px;
@@ -39,7 +39,7 @@ h2, .h2 {
     line-height: 1;
 }
 
-.searchBar a{
+.searchBar a {
     color: #fff;
 }
 
@@ -49,52 +49,53 @@ p.subheading {
     line-height: 1.2;
 }
 
-#frm_search{
+#frm_search {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
 
-#btn_search{
+#btn_search {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
 
-.keywords{
+.keywords {
     font-size: 20px;
     color: #fff;
 }
 
-.featuredPanel{
-    height: 150px; 
-    text-align: center;  
+.featuredPanel {
+    height: 150px;
+    text-align: center;
 }
 
 .panel-default {
     border: 1px solid #e3eaee;
 }
 
-.panel-body h5{
+.panel-body h5 {
     color: #fff;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
     color: #fff;
 }
 
-.featuredArticles{
+.featuredArticles {
     margin-top: 20px;
 }
 
-.featuredArticlesFooter{
+.featuredArticlesFooter {
     background-color: #0c85d0;
     border-color: #0b7fc6;
     text-align: center;
     color: #fff;
 }
 
-.featuredArticlesFooter a{
+.featuredArticlesFooter a {
     color: #fff;
 }
+
 
 /*.navbar-default .navbar-brand {
     color: #fff;
@@ -116,11 +117,11 @@ h1, h2, h3, h4{
     background-color: transparent;
 }*/
 
-.list-group-heading{
+.list-group-heading {
     background-color: #00bc8c;
 }
 
-.view_count{
+.view_count {
     font-size: 14px;
 }
 
@@ -130,11 +131,11 @@ h1, h2, h3, h4{
     border-color: #e3eaee;
 }
 
-.show_footer{
+.show_footer {
     margin-bottom: 80px;
 }
 
-.metaData h5{
+.metaData h5 {
     padding-bottom: 0px;
     line-height: 1;
 }
