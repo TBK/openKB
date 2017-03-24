@@ -1,15 +1,15 @@
 <div class="col-md-12">
     <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-    <ol class="breadcrumb">
-        <li><a href="{{app_context}}/">{{__ "Home"}}</a></li>
-        <li class="active">{{__ "Settings"}}</li>
-    </ol>
-        <ul class="nav nav-tabs" role="tablist" id="settingsTabs">
-            <li role="presentation" class="active"><a href="#website" aria-controls="website" role="tab" data-toggle="tab">{{__ "Website"}}</a></li>
-            <li role="presentation"><a href="#article" aria-controls="article" role="tab" data-toggle="tab">{{__ "Article"}}</a></li>
-            <li role="presentation"><a href="#display" aria-controls="display" role="tab" data-toggle="tab">{{__ "Display"}}</a></li>
-        </ul>
+        <div class="col-md-8 col-md-offset-2">
+            <ol class="breadcrumb">
+                <li><a href="{{app_context}}/">{{__ "Home"}}</a></li>
+                <li class="active">{{__ "Settings"}}</li>
+            </ol>
+            <ul class="nav nav-tabs" role="tablist" id="settingsTabs">
+                <li role="presentation" class="active"><a href="#website" aria-controls="website" role="tab" data-toggle="tab">{{__ "Website"}}</a></li>
+                <li role="presentation"><a href="#article" aria-controls="article" role="tab" data-toggle="tab">{{__ "Article"}}</a></li>
+                <li role="presentation"><a href="#display" aria-controls="display" role="tab" data-toggle="tab">{{__ "Display"}}</a></li>
+            </ul>
             <form method="post" action="{{app_context}}/update_settings">
                 <div class="clearfix">
                     <h1 class="pull-left">{{__ "Settings"}}</h1>
@@ -46,7 +46,7 @@
                         </div>
                         <div class="form-group">
                             <label class="control-label" for="app_context">{{__ "Website context/base URL"}}:</label>
-                            <input type="text" class="form-control" name="app_context" value="{{config.settings.app_context}}" >
+                            <input type="text" class="form-control" name="app_context" value="{{config.settings.app_context}}">
                             <p class="help-block">
                                 {{__ "Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/openkb/"}}.
                             </p>
@@ -63,7 +63,7 @@
                         </div>
                         <div class="form-group">
                             <label class="control-label" for="api_auth_token">{{__ "API access token"}}:</label>
-                            <input type="text" class="form-control" name="api_auth_token" value="{{config.settings.api_auth_token}}" >
+                            <input type="text" class="form-control" name="api_auth_token" value="{{config.settings.api_auth_token}}">
                             <p class="help-block">
                                 {{__ "Requires \"Allow API access\" to be set to \"true\". The value is the access token required to access the public API. Please set to a hard to guess value"}}.
                             </p>
@@ -281,14 +281,14 @@
                             </p>
                         </div>
                         <div class="form-group">
-                        <label class="control-label" for="update_view_count_logged_in">{{__ "Update view count when logged in"}}:</label>
-                        <select class="form-control" name="update_view_count_logged_in">
+                            <label class="control-label" for="update_view_count_logged_in">{{__ "Update view count when logged in"}}:</label>
+                            <select class="form-control" name="update_view_count_logged_in">
                             <option {{select_state config.settings.update_view_count_logged_in true}}>{{__ "true"}}</option>
                             <option {{select_state config.settings.update_view_count_logged_in false}}>{{__ "false"}}</option>
                         </select>
-                        <p class="help-block">
-                            {{__ "Updates the view count also when users are logged in"}}.
-                        </p>
+                            <p class="help-block">
+                                {{__ "Updates the view count also when users are logged in"}}.
+                            </p>
                         </div>
                         <div class="form-group">
                             <label class="control-label" for="show_featured_articles">{{__ "Show featured articles"}}:</label>
